@@ -8,8 +8,8 @@ class SandParticles{
         restitution:0.2 
       }
   
-      this.body=Bodies.circle(x,y,5,options)
-      this.radius=5
+      this.body=Bodies.circle(x,y,10,options)
+      this.radius=10
       World.add(world,this.body)
   
     }
